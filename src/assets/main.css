@@ -1,0 +1,24 @@
+@import './base.css';
+
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsl(180, 6%, 93%);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1024px) {
+
+
+  #app {
+  }
+}
